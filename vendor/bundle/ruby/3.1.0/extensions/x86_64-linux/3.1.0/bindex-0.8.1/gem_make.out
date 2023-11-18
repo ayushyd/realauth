@@ -1,0 +1,15 @@
+current directory: /home/ayush/realauth/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20231117-2768-wiriio.rb extconf.rb
+creating Makefile
+
+current directory: /home/ayush/realauth/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /home/ayush/realauth/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/ayush/realauth/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -m 0755 cruby.so ./.gem.20231117-2768-xk8l51/skiptrace/internal
