@@ -5,6 +5,7 @@ class Api::V1::UsersController < ApplicationController
    before_action :authenticate_user_by_token! , only: [:show]
    
 	def show
+
 		render json: {user: current_user}, status: :ok
 	end
 	
